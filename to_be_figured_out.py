@@ -35,3 +35,13 @@ w2 = "I love Python."
 w2 = w1
 print(w2)
 print(w1)
+
+def f(x = 100, y = 100): 
+   return(x+y, x-y) 
+x, y = f(y = 200, x = 100) 
+print(x, y) 
+
+def f(a, b = 1, c = 2):
+   print('a is: ',a, 'b is: ', b, 'c is: ', c)
+f(2, c = 2)
+f(c = 100, a = 110)
